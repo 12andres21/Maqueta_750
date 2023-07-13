@@ -1,0 +1,38 @@
+*:focus{ outline: none;}
+
+html
+{
+    width: 800px;
+    height: 800px;
+    background: #000;
+    margin: auto;
+}
+
+body{
+    font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", san-serif;
+    color: #526e57;
+    background: #e3edd8;
+    width: 500PX;
+    height: 700px;
+    margin: auto;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+
+.contenedor ul
+{
+   width: 700px; 
+   list-style-type: none;
+   list-style-position: outside;
+   margin: 0;
+   padding: 0;
+
+}
+.contenedor li
+{
+    padding: 12px;
+    border-bottom: 1px solid #d61b1b;
+    position: relative;
+    width: 300px;
+}
